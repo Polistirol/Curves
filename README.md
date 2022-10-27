@@ -27,7 +27,7 @@ To keep the amount of output data under control, Curves operates andjustable seg
 - [Geometry Helpers](#geometry-helpers)
   - [Find Circle](#find-circle)
   - [Points  Data](#points--data)
-    - [Conciden points](#conciden-points)
+    - [Concident points](#concident-points)
 
 # How to use
 Simply clone curves.py from this repository into your poject folder and import Curves using:
@@ -39,9 +39,9 @@ Check example.py for a quick demo of an arc passing for 3 points (uses matplotli
 # API
 To better access Curves funtions an API was deployed!
 
-you can find it online at https://curves.deta.dev
+You can find it online at https://curves.deta.dev
 
-Thank you Deta Cloud ! :boom: :heartpulse: :- [@deta]
+Thank you [@Deta Cloud](https://github.com/deta) ! :boom: :heartpulse: 
 
 
 # Curves 3D
@@ -120,7 +120,7 @@ Returns  the center "C"  and the radius "r" of the circumference passing through
 `A, B, C` are the 3 Points on the circle, can be passed as numpy array or a list of number [Xa,Ya,Za]
 
 ## Points  Data
-### Conciden points
+### Concident points
     Curves.areCoincident(npaArrayList):
 
 Returns True if any 2 points on the list are coincident, else returns false
