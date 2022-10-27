@@ -2,9 +2,9 @@
 
 A python utility to get the coordinates of sets of points belonging to geometrical shapes.
 
-The idea behind this project was the need to have a quick graphical rapresentation of the 3D paths of CNC programs, as only minimun amount of data is visibile in such code and the trajectoy is calculated internally.
+The idea behind this project was the need to have a quick graphical rapresentation of the 3D paths of CNC programs, as only minimun amount of data is visibile in such code and the real trajectoy is calculated internally by the CN.
 
-To keep the amount of output data under control, Curves operates andjustable segmentation algorithms, to effectively plot or manipulate set of points from minimal input
+To keep the amount of output data under control, Curves operates an andjustable segmentation algorithm, to effectively plot or manipulate set of points from minimal input
 
 ###### Features
 - Arcs segmentation : to split arcs into smaller,straight lines
@@ -30,7 +30,7 @@ To keep the amount of output data under control, Curves operates andjustable seg
     - [Concident points](#concident-points)
 
 # How to use
-Simply clone curves.py from this repository into your poject folder and import Curves using:
+Simply clone curves.py from this repository into your project folder and import Curves using:
     from curves import Curves
 
 ## Example 
